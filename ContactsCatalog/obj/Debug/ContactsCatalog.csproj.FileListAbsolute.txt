@@ -23,3 +23,6 @@ c:\users\deni\documents\visual studio 2015\Projects\ContactsCatalog\ContactsCata
 C:\Users\Deni\Documents\Visual Studio 2015\Projects\ContactsCatalog\TeamProject\ContactsCatalog\bin\Debug\ContactsCatalog.exe.config
 C:\Users\Deni\Documents\Visual Studio 2015\Projects\ContactsCatalog\TeamProject\ContactsCatalog\obj\Debug\ContactsCatalog.exe
 C:\Users\Deni\Documents\Visual Studio 2015\Projects\ContactsCatalog\TeamProject\ContactsCatalog\obj\Debug\ContactsCatalog.pdb
+C:\Users\Deni\Desktop\TeamProject\ContactsCatalog\bin\Debug\ContactsCatalog.exe.config
+C:\Users\Deni\Desktop\TeamProject\ContactsCatalog\obj\Debug\ContactsCatalog.exe
+C:\Users\Deni\Desktop\TeamProject\ContactsCatalog\obj\Debug\ContactsCatalog.pdb
