@@ -1,0 +1,10 @@
+c:\users\deni\documents\visual studio 2015\Projects\ContactsCatalog\ContactsCatalog.Models\bin\Debug\ContactsCatalog.Models.dll
+c:\users\deni\documents\visual studio 2015\Projects\ContactsCatalog\ContactsCatalog.Models\bin\Debug\ContactsCatalog.Models.pdb
+c:\users\deni\documents\visual studio 2015\Projects\ContactsCatalog\ContactsCatalog.Models\obj\Debug\ContactsCatalog.Models.csprojResolveAssemblyReference.cache
+c:\users\deni\documents\visual studio 2015\Projects\ContactsCatalog\ContactsCatalog.Models\obj\Debug\ContactsCatalog.Models.dll
+c:\users\deni\documents\visual studio 2015\Projects\ContactsCatalog\ContactsCatalog.Models\obj\Debug\ContactsCatalog.Models.pdb
+c:\users\deni\documents\visual studio 2015\Projects\ContactsCatalog\ContactsCatalog.Models\bin\Debug\ContactsCatalog.Models.dll.config
+c:\users\deni\documents\visual studio 2015\Projects\ContactsCatalog\ContactsCatalog.Models\bin\Debug\EntityFramework.dll
+c:\users\deni\documents\visual studio 2015\Projects\ContactsCatalog\ContactsCatalog.Models\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\deni\documents\visual studio 2015\Projects\ContactsCatalog\ContactsCatalog.Models\bin\Debug\EntityFramework.xml
+c:\users\deni\documents\visual studio 2015\Projects\ContactsCatalog\ContactsCatalog.Models\bin\Debug\EntityFramework.SqlServer.xml
