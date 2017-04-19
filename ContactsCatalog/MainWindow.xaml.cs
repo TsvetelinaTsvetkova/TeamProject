@@ -1,6 +1,7 @@
 ﻿using ContactsCatalog.Data;
 using ContactsCatalog.Data.ContactsCatalogStore;
 using ContactsCatalog.Models;
+using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
