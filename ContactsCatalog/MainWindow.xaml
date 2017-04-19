@@ -63,7 +63,20 @@
                 ,Mode=TwoWay}"
                     Height="50"
                     TextWrapping="WrapWithOverflow"
-                    Margin="0,5"></TextBox>
+                    Margin="0,5"/>
+            <Button 
+                x:Name="button" 
+                Content="Browse Image"
+                HorizontalAlignment="Left"
+                Height="23" Click="Browse_Click"/>
+            <Image x:Name="image" Height="180" Width="180" 
+                   Margin="15,15,0,15" HorizontalAlignment="Left" 
+                   AllowDrop="True" 
+                   Source="{Binding ProfilePicturePath, Mode=TwoWay}"/>
+
+            <Label Content="ProfilePicturePath:" Target="{Binding ElementName=ProfilePicturePathBox}" Margin="0" Padding="0"/>
+            <TextBox x:Name="ProfilePicturePathBox" Text="{Binding ProfilePicturePath, Mode=TwoWay}" TextWrapping="Wrap"/>
+
 
         </StackPanel>
 
