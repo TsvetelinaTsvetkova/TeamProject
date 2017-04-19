@@ -4,6 +4,8 @@
              xmlns:local="clr-namespace:ContactsCatalog"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+
+        <BitmapImage x:Key="ImageSource1" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="C:\Users\bachito po malko ot3\Documents\Documents\Imhotep\TeamProject\ContactsCatalog\Resources\Graphicloads-100-Flat-Contact.ico"/>
+
     </Application.Resources>
 </Application>

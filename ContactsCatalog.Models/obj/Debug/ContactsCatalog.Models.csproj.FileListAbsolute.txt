@@ -18,3 +18,13 @@ C:\Users\Deni\Desktop\TeamProject\ContactsCatalog.Models\bin\Debug\EntityFramewo
 C:\Users\Deni\Desktop\TeamProject\ContactsCatalog.Models\obj\Debug\ContactsCatalog.Models.csprojResolveAssemblyReference.cache
 C:\Users\Deni\Desktop\TeamProject\ContactsCatalog.Models\obj\Debug\ContactsCatalog.Models.dll
 C:\Users\Deni\Desktop\TeamProject\ContactsCatalog.Models\obj\Debug\ContactsCatalog.Models.pdb
+C:\Users\bachito po malko ot3\Documents\Documents\Imhotep\TeamProject\ContactsCatalog.Models\bin\Debug\ContactsCatalog.Models.dll.config
+C:\Users\bachito po malko ot3\Documents\Documents\Imhotep\TeamProject\ContactsCatalog.Models\bin\Debug\ContactsCatalog.Models.dll
+C:\Users\bachito po malko ot3\Documents\Documents\Imhotep\TeamProject\ContactsCatalog.Models\bin\Debug\ContactsCatalog.Models.pdb
+C:\Users\bachito po malko ot3\Documents\Documents\Imhotep\TeamProject\ContactsCatalog.Models\bin\Debug\EntityFramework.dll
+C:\Users\bachito po malko ot3\Documents\Documents\Imhotep\TeamProject\ContactsCatalog.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bachito po malko ot3\Documents\Documents\Imhotep\TeamProject\ContactsCatalog.Models\bin\Debug\EntityFramework.xml
+C:\Users\bachito po malko ot3\Documents\Documents\Imhotep\TeamProject\ContactsCatalog.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bachito po malko ot3\Documents\Documents\Imhotep\TeamProject\ContactsCatalog.Models\obj\Debug\ContactsCatalog.Models.csprojResolveAssemblyReference.cache
+C:\Users\bachito po malko ot3\Documents\Documents\Imhotep\TeamProject\ContactsCatalog.Models\obj\Debug\ContactsCatalog.Models.dll
+C:\Users\bachito po malko ot3\Documents\Documents\Imhotep\TeamProject\ContactsCatalog.Models\obj\Debug\ContactsCatalog.Models.pdb

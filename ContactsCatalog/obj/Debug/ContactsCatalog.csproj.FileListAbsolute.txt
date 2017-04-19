@@ -45,3 +45,26 @@ C:\Users\Deni\Desktop\TeamProject\ContactsCatalog\obj\Debug\MainWindow.baml
 C:\Users\Deni\Desktop\TeamProject\ContactsCatalog\obj\Debug\ContactsCatalog.g.resources
 C:\Users\Deni\Desktop\TeamProject\ContactsCatalog\obj\Debug\ContactsCatalog.Properties.Resources.resources
 C:\Users\Deni\Desktop\TeamProject\ContactsCatalog\obj\Debug\ContactsCatalog.csproj.GenerateResource.Cache
+C:\Users\bachito po malko ot3\Documents\Documents\Imhotep\TeamProject\ContactsCatalog\bin\Debug\ContactsCatalog.exe.config
+C:\Users\bachito po malko ot3\Documents\Documents\Imhotep\TeamProject\ContactsCatalog\obj\Debug\ContactsCatalog.exe
+C:\Users\bachito po malko ot3\Documents\Documents\Imhotep\TeamProject\ContactsCatalog\obj\Debug\ContactsCatalog.pdb
+C:\Users\bachito po malko ot3\Documents\Documents\Imhotep\TeamProject\ContactsCatalog\bin\Debug\ContactsCatalog.exe
+C:\Users\bachito po malko ot3\Documents\Documents\Imhotep\TeamProject\ContactsCatalog\bin\Debug\ContactsCatalog.pdb
+C:\Users\bachito po malko ot3\Documents\Documents\Imhotep\TeamProject\ContactsCatalog\bin\Debug\ContactsCatalog.Data.dll
+C:\Users\bachito po malko ot3\Documents\Documents\Imhotep\TeamProject\ContactsCatalog\bin\Debug\ContactsCatalog.Models.dll
+C:\Users\bachito po malko ot3\Documents\Documents\Imhotep\TeamProject\ContactsCatalog\bin\Debug\EntityFramework.dll
+C:\Users\bachito po malko ot3\Documents\Documents\Imhotep\TeamProject\ContactsCatalog\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bachito po malko ot3\Documents\Documents\Imhotep\TeamProject\ContactsCatalog\bin\Debug\ContactsCatalog.Data.pdb
+C:\Users\bachito po malko ot3\Documents\Documents\Imhotep\TeamProject\ContactsCatalog\bin\Debug\ContactsCatalog.Models.pdb
+C:\Users\bachito po malko ot3\Documents\Documents\Imhotep\TeamProject\ContactsCatalog\bin\Debug\EntityFramework.xml
+C:\Users\bachito po malko ot3\Documents\Documents\Imhotep\TeamProject\ContactsCatalog\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bachito po malko ot3\Documents\Documents\Imhotep\TeamProject\ContactsCatalog\obj\Debug\ContactsCatalog.csprojResolveAssemblyReference.cache
+C:\Users\bachito po malko ot3\Documents\Documents\Imhotep\TeamProject\ContactsCatalog\obj\Debug\MainWindow.g.cs
+C:\Users\bachito po malko ot3\Documents\Documents\Imhotep\TeamProject\ContactsCatalog\obj\Debug\App.g.cs
+C:\Users\bachito po malko ot3\Documents\Documents\Imhotep\TeamProject\ContactsCatalog\obj\Debug\ContactsCatalog_MarkupCompile.cache
+C:\Users\bachito po malko ot3\Documents\Documents\Imhotep\TeamProject\ContactsCatalog\obj\Debug\ContactsCatalog_MarkupCompile.lref
+C:\Users\bachito po malko ot3\Documents\Documents\Imhotep\TeamProject\ContactsCatalog\obj\Debug\MainWindow.baml
+C:\Users\bachito po malko ot3\Documents\Documents\Imhotep\TeamProject\ContactsCatalog\obj\Debug\ContactsCatalog.g.resources
+C:\Users\bachito po malko ot3\Documents\Documents\Imhotep\TeamProject\ContactsCatalog\obj\Debug\ContactsCatalog.Properties.Resources.resources
+C:\Users\bachito po malko ot3\Documents\Documents\Imhotep\TeamProject\ContactsCatalog\obj\Debug\ContactsCatalog.csproj.GenerateResource.Cache
+C:\Users\bachito po malko ot3\Documents\Documents\Imhotep\TeamProject\ContactsCatalog\obj\Debug\App.baml
