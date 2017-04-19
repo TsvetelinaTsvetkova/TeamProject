@@ -5,11 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ContactsCatalog"       
         mc:Ignorable="d"
-<<<<<<< HEAD
-        Title="Contacts Catalog" Height="350" Width="525" WindowStartupLocation="CenterScreen" Icon="{DynamicResource ImageSource1}" ResizeMode="NoResize">
-=======
-        Title="Contacts Catalog" WindowState="Maximized">
->>>>>>> b20fc38c1e88be5f7b9ef2c0dd8f896c4f99949c
+        Title="Contacts Catalog"
+        WindowState="Maximized"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="23"/>

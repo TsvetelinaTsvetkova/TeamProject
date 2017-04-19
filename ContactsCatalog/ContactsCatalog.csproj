@@ -120,6 +120,7 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -144,7 +145,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
       <Visible>False</Visible>
       <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
@@ -161,9 +161,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Graphicloads-100-Flat-Contact.ico" />
-=======
+  </ItemGroup>
+  <ItemGroup>
     <Folder Include="Images\" />
->>>>>>> b20fc38c1e88be5f7b9ef2c0dd8f896c4f99949c
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
