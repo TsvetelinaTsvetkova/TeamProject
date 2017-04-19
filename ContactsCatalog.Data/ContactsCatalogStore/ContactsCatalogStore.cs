@@ -1,10 +1,14 @@
-﻿namespace ContactsCatalog.Data.ContactsCatalogStore
-{
-    using ContactsCatalog.Models;
-    using System.Collections.Generic;
-    using System.Linq;
+﻿using ContactsCatalog.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-    public class ContactsCatalogStore
+namespace ContactsCatalog.Data.ContactsCatalogStore
+{
+    
+   public class ContactsCatalogStore
     {
         private ContactsCatalogContext context = new ContactsCatalogContext();
 
@@ -27,7 +31,7 @@
         {
             var newContact = new Contact
             {
-                Name = "New Contact"
+                Name = "'New Contact"
             };
             this.context.Contacts.Add(newContact);
             return (newContact);
