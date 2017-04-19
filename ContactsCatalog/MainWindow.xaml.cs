@@ -20,12 +20,12 @@ using System.Windows.Shapes;
 
 namespace ContactsCatalog
 {
+
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
-
         ObservableCollection<Contact> contacts = new ObservableCollection<Contact>();
 
         ContactsCatalogStore store = new ContactsCatalogStore();
@@ -33,10 +33,11 @@ namespace ContactsCatalog
         public MainWindow()
         {
             InitializeComponent();
-
+          
             LoadContacts();
         }
 
+    
         private void SaveChangesClick_Click(object sender,
            RoutedEventArgs e)
         {

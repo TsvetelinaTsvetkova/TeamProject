@@ -50,6 +50,7 @@
             
             
             <ListView x:Name="ContactsList"
+                      Background="GhostWhite"
                   ItemsSource="{Binding}"
                   Grid.Row="1"                 
                   IsSynchronizedWithCurrentItem="True">
@@ -66,6 +67,7 @@
         </Grid>
         
         <StackPanel Orientation="Vertical"
+                    Background="WhiteSmoke"
                     Grid.Row="1"
                    Grid.Column="1" Margin="15">
 
