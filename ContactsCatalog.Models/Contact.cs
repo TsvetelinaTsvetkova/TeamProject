@@ -15,5 +15,7 @@ namespace ContactsCatalog.Models
         public string Address { get; set; }
 
         public string ContactInformation { get; set; }
+
+        public string ProfilePicturePath { get; set; }
     }
 }

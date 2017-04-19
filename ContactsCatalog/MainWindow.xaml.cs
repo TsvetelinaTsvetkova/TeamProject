@@ -1,6 +1,7 @@
 ﻿using ContactsCatalog.Data;
 using ContactsCatalog.Data.ContactsCatalogStore;
 using ContactsCatalog.Models;
+using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -19,12 +20,12 @@ using System.Windows.Shapes;
 
 namespace ContactsCatalog
 {
+
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
-
         ObservableCollection<Contact> contacts = new ObservableCollection<Contact>();
 
         ContactsCatalogStore store = new ContactsCatalogStore();
@@ -32,10 +33,11 @@ namespace ContactsCatalog
         public MainWindow()
         {
             InitializeComponent();
-
+          
             LoadContacts();
         }
 
+    
         private void SaveChangesClick_Click(object sender,
            RoutedEventArgs e)
         {
@@ -51,6 +53,41 @@ namespace ContactsCatalog
            RoutedEventArgs e)
         {
             ((ObservableCollection<Contact>)DataContext).Add(this.store.AddNewContact());
+        }
+
+        private void Browse_Click(object sender, RoutedEventArgs e)
+        {
+            // Create OpenFileDialog 
+            OpenFileDialog dlg = new OpenFileDialog();
+
+            // Set filter for file extension and default file extension 
+            dlg.DefaultExt = ".png";
+            dlg.Filter = "JPG Files (*.jpg)|*.jpg|JPEG Files (*.jpeg)|*.jpeg|PNG Files (*.png)|*.png|GIF Files (*.gif)|*.gif";
+
+            // Display OpenFileDialog by calling ShowDialog method 
+            Nullable<bool> result = dlg.ShowDialog();
+
+            // Get the selected file name and display in a TextBox and Image
+            if (result == true)
+            {
+                // Open document
+                image.Source = new BitmapImage(new Uri(dlg.FileName));
+                string filename = dlg.FileName;
+                ProfilePicturePathBox.Text = filename.ToString();
+
+                Contact selectedContact = this.ContactsList.SelectedItem as Contact;
+
+                selectedContact.ProfilePicturePath = ProfilePicturePathBox.Text;
+            }
+        }
+
+        private void Search_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            string searchPattern = this.Search.Text;
+
+            var result = this.store.GetContactsBySearchPattern(searchPattern);
+
+            DataContext = new ObservableCollection<Contact>(result);
         }
     }
 }

@@ -5,7 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ContactsCatalog"       
         mc:Ignorable="d"
+<<<<<<< HEAD
         Title="Contacts Catalog" Height="350" Width="525" WindowStartupLocation="CenterScreen" Icon="{DynamicResource ImageSource1}" ResizeMode="NoResize">
+=======
+        Title="Contacts Catalog" WindowState="Maximized">
+>>>>>>> b20fc38c1e88be5f7b9ef2c0dd8f896c4f99949c
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="23"/>
@@ -25,21 +29,50 @@
                           Click="AddNewContact_Click"/>
             </MenuItem>
         </Menu>
-        <ListView x:Name="ContactsList"
+
+        <Grid Grid.Row="1"
+              Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="11*"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                
+                <Label Grid.Row="0" Grid.Column="0">Search Contact: </Label>
+                <TextBox Name="Search"
+                         TextChanged="Search_TextChanged"
+                         Grid.Row="0" Grid.Column="1"></TextBox>
+            </Grid>
+            
+            
+            <ListView x:Name="ContactsList"
+                      Background="GhostWhite"
                   ItemsSource="{Binding}"
-                  Grid.Row="1"
-                  Grid.Column="0"
+                  Grid.Row="1"                 
                   IsSynchronizedWithCurrentItem="True">
-            <ListView.View>
-                <GridView>
-                    <GridViewColumn Header="Name"
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Name"
+                                        Width="220"
                                     DisplayMemberBinding="{Binding Name}" />
-                    <!--<GridViewColumn Header="Name"
+                        <!--<GridViewColumn Header="Name"
                                     DisplayMemberBinding="{Binding Type}" />-->
-                </GridView>
-            </ListView.View>
-        </ListView>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </Grid>
+        
         <StackPanel Orientation="Vertical"
+                    Background="WhiteSmoke"
                     Grid.Row="1"
                    Grid.Column="1" Margin="15" Grid.ColumnSpan="2">
 
@@ -64,7 +97,20 @@
                 ,Mode=TwoWay}"
                     Height="50"
                     TextWrapping="WrapWithOverflow"
-                    Margin="0,5"></TextBox>
+                    Margin="0,5"/>
+            <Button 
+                x:Name="button" 
+                Content="Browse Image"
+                HorizontalAlignment="Left"
+                Height="23" Click="Browse_Click"/>
+            <Image x:Name="image" Height="180" Width="180" 
+                   Margin="15,15,0,15" HorizontalAlignment="Left" 
+                   AllowDrop="True" 
+                   Source="{Binding ProfilePicturePath, Mode=TwoWay}"/>
+
+            <Label Content="ProfilePicturePath:" Target="{Binding ElementName=ProfilePicturePathBox}" Margin="0" Padding="0"/>
+            <TextBox x:Name="ProfilePicturePathBox" Text="{Binding ProfilePicturePath, Mode=TwoWay}" TextWrapping="Wrap"/>
+
 
         </StackPanel>
 

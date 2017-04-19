@@ -1,0 +1,15 @@
+﻿<Window x:Class="ContactsCatalog.WelcomeWindows"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ContactsCatalog"
+        mc:Ignorable="d"
+        Title="WelcomeWindows" WindowState="Maximized" Background="Transparent">
+
+    <Grid>
+
+        <TextBlock Name="TBCountDown" Width="900" TextAlignment="Center" FontSize="120" FontFamily="Cegoe UI Light" Margin="-68,122,-72,85"/>
+        <Button Content="Welcome" FontSize="50" FontWeight="Medium" FontStyle="Italic" ContentStringFormat="150" RenderTransformOrigin="100.100,100.100" Margin="525,364,502,311" Click="Welcome_Click"/>
+    </Grid>
+</Window>

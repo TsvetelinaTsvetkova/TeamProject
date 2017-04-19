@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿ContactsCatalog
 
 
@@ -18,3 +19,25 @@ MainWindow.xaml;
 
 False
 
+=======
+﻿ContactsCatalog
+
+
+winexe
+C#
+.cs
+C:\Users\Shmeri\Desktop\Projects\TeamProject\ContactsCatalog\obj\Debug\
+ContactsCatalog
+none
+false
+DEBUG;TRACE
+C:\Users\Shmeri\Desktop\Projects\TeamProject\ContactsCatalog\App.xaml
+21060962133
+
+10-1196035334
+18-600746061
+MainWindow.xaml;WelcomeWindows.xaml;
+
+False
+
+>>>>>>> b20fc38c1e88be5f7b9ef2c0dd8f896c4f99949c

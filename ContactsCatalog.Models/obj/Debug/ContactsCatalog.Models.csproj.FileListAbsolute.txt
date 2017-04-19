@@ -18,6 +18,7 @@ C:\Users\Deni\Desktop\TeamProject\ContactsCatalog.Models\bin\Debug\EntityFramewo
 C:\Users\Deni\Desktop\TeamProject\ContactsCatalog.Models\obj\Debug\ContactsCatalog.Models.csprojResolveAssemblyReference.cache
 C:\Users\Deni\Desktop\TeamProject\ContactsCatalog.Models\obj\Debug\ContactsCatalog.Models.dll
 C:\Users\Deni\Desktop\TeamProject\ContactsCatalog.Models\obj\Debug\ContactsCatalog.Models.pdb
+<<<<<<< HEAD
 C:\Users\bachito po malko ot3\Documents\Documents\Imhotep\TeamProject\ContactsCatalog.Models\bin\Debug\ContactsCatalog.Models.dll.config
 C:\Users\bachito po malko ot3\Documents\Documents\Imhotep\TeamProject\ContactsCatalog.Models\bin\Debug\ContactsCatalog.Models.dll
 C:\Users\bachito po malko ot3\Documents\Documents\Imhotep\TeamProject\ContactsCatalog.Models\bin\Debug\ContactsCatalog.Models.pdb
@@ -28,3 +29,15 @@ C:\Users\bachito po malko ot3\Documents\Documents\Imhotep\TeamProject\ContactsCa
 C:\Users\bachito po malko ot3\Documents\Documents\Imhotep\TeamProject\ContactsCatalog.Models\obj\Debug\ContactsCatalog.Models.csprojResolveAssemblyReference.cache
 C:\Users\bachito po malko ot3\Documents\Documents\Imhotep\TeamProject\ContactsCatalog.Models\obj\Debug\ContactsCatalog.Models.dll
 C:\Users\bachito po malko ot3\Documents\Documents\Imhotep\TeamProject\ContactsCatalog.Models\obj\Debug\ContactsCatalog.Models.pdb
+=======
+C:\Users\Shmeri\Desktop\Projects\TeamProject\ContactsCatalog.Models\bin\Debug\ContactsCatalog.Models.dll.config
+C:\Users\Shmeri\Desktop\Projects\TeamProject\ContactsCatalog.Models\bin\Debug\ContactsCatalog.Models.dll
+C:\Users\Shmeri\Desktop\Projects\TeamProject\ContactsCatalog.Models\bin\Debug\ContactsCatalog.Models.pdb
+C:\Users\Shmeri\Desktop\Projects\TeamProject\ContactsCatalog.Models\bin\Debug\EntityFramework.dll
+C:\Users\Shmeri\Desktop\Projects\TeamProject\ContactsCatalog.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Shmeri\Desktop\Projects\TeamProject\ContactsCatalog.Models\bin\Debug\EntityFramework.xml
+C:\Users\Shmeri\Desktop\Projects\TeamProject\ContactsCatalog.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Shmeri\Desktop\Projects\TeamProject\ContactsCatalog.Models\obj\Debug\ContactsCatalog.Models.csprojResolveAssemblyReference.cache
+C:\Users\Shmeri\Desktop\Projects\TeamProject\ContactsCatalog.Models\obj\Debug\ContactsCatalog.Models.dll
+C:\Users\Shmeri\Desktop\Projects\TeamProject\ContactsCatalog.Models\obj\Debug\ContactsCatalog.Models.pdb
+>>>>>>> b20fc38c1e88be5f7b9ef2c0dd8f896c4f99949c
