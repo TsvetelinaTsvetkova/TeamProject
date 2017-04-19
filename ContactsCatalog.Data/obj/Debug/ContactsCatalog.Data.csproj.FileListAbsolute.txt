@@ -22,3 +22,15 @@ C:\Users\Deni\Desktop\TeamProject\ContactsCatalog.Data\bin\Debug\EntityFramework
 C:\Users\Deni\Desktop\TeamProject\ContactsCatalog.Data\obj\Debug\ContactsCatalog.Data.csprojResolveAssemblyReference.cache
 C:\Users\Deni\Desktop\TeamProject\ContactsCatalog.Data\obj\Debug\ContactsCatalog.Data.dll
 C:\Users\Deni\Desktop\TeamProject\ContactsCatalog.Data\obj\Debug\ContactsCatalog.Data.pdb
+D:\exercices\C_sharp_db\Advanced\Team_Project_3\TeamProject-master\TeamProject-master\ContactsCatalog.Data\bin\Debug\ContactsCatalog.Data.dll.config
+D:\exercices\C_sharp_db\Advanced\Team_Project_3\TeamProject-master\TeamProject-master\ContactsCatalog.Data\bin\Debug\ContactsCatalog.Data.dll
+D:\exercices\C_sharp_db\Advanced\Team_Project_3\TeamProject-master\TeamProject-master\ContactsCatalog.Data\bin\Debug\ContactsCatalog.Data.pdb
+D:\exercices\C_sharp_db\Advanced\Team_Project_3\TeamProject-master\TeamProject-master\ContactsCatalog.Data\bin\Debug\ContactsCatalog.Models.dll
+D:\exercices\C_sharp_db\Advanced\Team_Project_3\TeamProject-master\TeamProject-master\ContactsCatalog.Data\bin\Debug\EntityFramework.dll
+D:\exercices\C_sharp_db\Advanced\Team_Project_3\TeamProject-master\TeamProject-master\ContactsCatalog.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\exercices\C_sharp_db\Advanced\Team_Project_3\TeamProject-master\TeamProject-master\ContactsCatalog.Data\bin\Debug\ContactsCatalog.Models.pdb
+D:\exercices\C_sharp_db\Advanced\Team_Project_3\TeamProject-master\TeamProject-master\ContactsCatalog.Data\bin\Debug\EntityFramework.xml
+D:\exercices\C_sharp_db\Advanced\Team_Project_3\TeamProject-master\TeamProject-master\ContactsCatalog.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\exercices\C_sharp_db\Advanced\Team_Project_3\TeamProject-master\TeamProject-master\ContactsCatalog.Data\obj\Debug\ContactsCatalog.Data.csprojResolveAssemblyReference.cache
+D:\exercices\C_sharp_db\Advanced\Team_Project_3\TeamProject-master\TeamProject-master\ContactsCatalog.Data\obj\Debug\ContactsCatalog.Data.dll
+D:\exercices\C_sharp_db\Advanced\Team_Project_3\TeamProject-master\TeamProject-master\ContactsCatalog.Data\obj\Debug\ContactsCatalog.Data.pdb

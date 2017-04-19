@@ -1,14 +1,10 @@
-﻿using ContactsCatalog.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ContactsCatalog.Data.ContactsCatalogStore
+﻿namespace ContactsCatalog.Data.ContactsCatalogStore
 {
-    
-   public class ContactsCatalogStore
+    using ContactsCatalog.Models;
+    using System.Collections.Generic;
+    using System.Linq;
+
+    public class ContactsCatalogStore
     {
         private ContactsCatalogContext context = new ContactsCatalogContext();
 
@@ -31,7 +27,7 @@ namespace ContactsCatalog.Data.ContactsCatalogStore
         {
             var newContact = new Contact
             {
-                Name = "'New Contact"
+                Name = "New Contact"
             };
             this.context.Contacts.Add(newContact);
             return (newContact);

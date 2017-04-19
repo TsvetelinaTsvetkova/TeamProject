@@ -18,3 +18,13 @@ C:\Users\Deni\Desktop\TeamProject\ContactsCatalog.Models\bin\Debug\EntityFramewo
 C:\Users\Deni\Desktop\TeamProject\ContactsCatalog.Models\obj\Debug\ContactsCatalog.Models.csprojResolveAssemblyReference.cache
 C:\Users\Deni\Desktop\TeamProject\ContactsCatalog.Models\obj\Debug\ContactsCatalog.Models.dll
 C:\Users\Deni\Desktop\TeamProject\ContactsCatalog.Models\obj\Debug\ContactsCatalog.Models.pdb
+D:\exercices\C_sharp_db\Advanced\Team_Project_3\TeamProject-master\TeamProject-master\ContactsCatalog.Models\bin\Debug\ContactsCatalog.Models.dll.config
+D:\exercices\C_sharp_db\Advanced\Team_Project_3\TeamProject-master\TeamProject-master\ContactsCatalog.Models\bin\Debug\ContactsCatalog.Models.dll
+D:\exercices\C_sharp_db\Advanced\Team_Project_3\TeamProject-master\TeamProject-master\ContactsCatalog.Models\bin\Debug\ContactsCatalog.Models.pdb
+D:\exercices\C_sharp_db\Advanced\Team_Project_3\TeamProject-master\TeamProject-master\ContactsCatalog.Models\bin\Debug\EntityFramework.dll
+D:\exercices\C_sharp_db\Advanced\Team_Project_3\TeamProject-master\TeamProject-master\ContactsCatalog.Models\bin\Debug\EntityFramework.SqlServer.dll
+D:\exercices\C_sharp_db\Advanced\Team_Project_3\TeamProject-master\TeamProject-master\ContactsCatalog.Models\bin\Debug\EntityFramework.xml
+D:\exercices\C_sharp_db\Advanced\Team_Project_3\TeamProject-master\TeamProject-master\ContactsCatalog.Models\bin\Debug\EntityFramework.SqlServer.xml
+D:\exercices\C_sharp_db\Advanced\Team_Project_3\TeamProject-master\TeamProject-master\ContactsCatalog.Models\obj\Debug\ContactsCatalog.Models.csprojResolveAssemblyReference.cache
+D:\exercices\C_sharp_db\Advanced\Team_Project_3\TeamProject-master\TeamProject-master\ContactsCatalog.Models\obj\Debug\ContactsCatalog.Models.dll
+D:\exercices\C_sharp_db\Advanced\Team_Project_3\TeamProject-master\TeamProject-master\ContactsCatalog.Models\obj\Debug\ContactsCatalog.Models.pdb
