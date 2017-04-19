@@ -7,6 +7,7 @@
     using System;
     using System.Collections.Generic;
     using System.Collections.ObjectModel;
+    using System.IO;
     using System.Linq;
     using System.Text;
     using System.Threading.Tasks;
@@ -76,7 +77,7 @@
 
                 Contact selectedContact = this.ContactsList.SelectedItem as Contact;
 
-                selectedContact.ProfilePicturePath = ProfilePicturePathBox.Text;
+                selectedContact.ProfilePicturePath =ProfilePicturePathBox.Text;
             }
         }
     }
