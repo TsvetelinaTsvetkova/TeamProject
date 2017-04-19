@@ -73,10 +73,6 @@
                 image.Source = new BitmapImage(new Uri(dlg.FileName));
                 string filename = dlg.FileName;
                 ProfilePicturePathBox.Text = filename.ToString();
-
-                Contact selectedContact = this.ContactsList.SelectedItem as Contact;
-
-                selectedContact.ProfilePicturePath = ProfilePicturePathBox.Text;
             }
         }
     }
