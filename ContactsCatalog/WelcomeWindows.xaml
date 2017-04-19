@@ -5,11 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ContactsCatalog"
         mc:Ignorable="d"
-        Title="WelcomeWindows" Height="460" Width="900" Background="Transparent">
+        Title="WelcomeWindows" WindowState="Maximized" Background="Transparent">
 
     <Grid>
 
         <TextBlock Name="TBCountDown" Width="900" TextAlignment="Center" FontSize="120" FontFamily="Cegoe UI Light" Margin="0,75,-8,39"/>
-        <Button Content="Welcome" ContentStringFormat="150" RenderTransformOrigin="100.100,100.100" Margin="375,214,352,161" Click="Welcome_Click"/>
+        <Button Content="Welcome" ContentStringFormat="150" RenderTransformOrigin="100.100,100.100" Margin="475,314,452,261" Click="Welcome_Click"/>
     </Grid>
 </Window>
