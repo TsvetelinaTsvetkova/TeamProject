@@ -22,6 +22,16 @@ namespace ContactsCatalog.Data.ContactsCatalogStore
             return this.context.Contacts.ToList();
         }
 
+        public List<Contact> GetContactsBySearchPattern(string searchPattern)
+        {
+            if (string.IsNullOrEmpty(searchPattern))
+            {
+                return this.GetAllContacts();
+            }
+
+            return this.context.Contacts.Where(x=>x.Name.ToLower().Contains(searchPattern.ToLower())).ToList();
+        }
+
         public void SaveChanges()
         {
             this.context.SaveChanges();
@@ -31,7 +41,7 @@ namespace ContactsCatalog.Data.ContactsCatalogStore
         {
             var newContact = new Contact
             {
-                Name = "'New Contact"
+                Name = "New Contact"
             };
             this.context.Contacts.Add(newContact);
             return (newContact);
