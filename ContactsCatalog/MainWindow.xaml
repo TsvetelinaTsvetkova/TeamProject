@@ -24,20 +24,46 @@
                           Click="AddNewContact_Click"/>
             </MenuItem>
         </Menu>
-        <ListView x:Name="ContactsList"
+
+        <Grid Grid.Row="1"
+              Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="11*"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                
+                <Label Grid.Row="0" Grid.Column="0">Search Contact: </Label>
+                <TextBox Name="Search"
+                         TextChanged="Search_TextChanged"
+                         Grid.Row="0" Grid.Column="1"></TextBox>
+            </Grid>
+            
+            
+            <ListView x:Name="ContactsList"
                   ItemsSource="{Binding}"
-                  Grid.Row="1"
-                  Grid.Column="0"
+                  Grid.Row="1"                 
                   IsSynchronizedWithCurrentItem="True">
-            <ListView.View>
-                <GridView>
-                    <GridViewColumn Header="Name"
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Name"
                                     DisplayMemberBinding="{Binding Name}" />
-                    <!--<GridViewColumn Header="Name"
+                        <!--<GridViewColumn Header="Name"
                                     DisplayMemberBinding="{Binding Type}" />-->
-                </GridView>
-            </ListView.View>
-        </ListView>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </Grid>
+        
         <StackPanel Orientation="Vertical"
                     Grid.Row="1"
                    Grid.Column="1" Margin="15">

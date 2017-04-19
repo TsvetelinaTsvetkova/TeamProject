@@ -79,5 +79,14 @@ namespace ContactsCatalog
                 selectedContact.ProfilePicturePath = ProfilePicturePathBox.Text;
             }
         }
+
+        private void Search_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            string searchPattern = this.Search.Text;
+
+            var result = this.store.GetContactsBySearchPattern(searchPattern);
+
+            DataContext = new ObservableCollection<Contact>(result);
+        }
     }
 }
