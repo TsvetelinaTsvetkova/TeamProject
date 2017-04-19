@@ -9,7 +9,7 @@
 
     <Grid>
 
-        <TextBlock Name="TBCountDown" Width="900" TextAlignment="Center" FontSize="120" FontFamily="Cegoe UI Light" Margin="0,75,-8,39"/>
-        <Button Content="Welcome" ContentStringFormat="150" RenderTransformOrigin="100.100,100.100" Margin="475,314,452,261" Click="Welcome_Click"/>
+        <TextBlock Name="TBCountDown" Width="900" TextAlignment="Center" FontSize="120" FontFamily="Cegoe UI Light" Margin="-68,122,-72,85"/>
+        <Button Content="Welcome" FontSize="50" FontWeight="Medium" FontStyle="Italic" ContentStringFormat="150" RenderTransformOrigin="100.100,100.100" Margin="525,364,502,311" Click="Welcome_Click"/>
     </Grid>
 </Window>
