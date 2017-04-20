@@ -164,5 +164,6 @@ namespace ContactsCatalog
             ProfilePicturePathBox.Visibility = Visibility.Hidden;
             bt_save.Visibility = Visibility.Hidden;
         }
+
     }
 }

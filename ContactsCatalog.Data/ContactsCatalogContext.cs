@@ -11,7 +11,7 @@ namespace ContactsCatalog.Data
         public ContactsCatalogContext()
             : base("name=ContactsCatalogContext")
         {
-            Database.SetInitializer(new DropCreateDatabaseAlways<ContactsCatalogContext>());
+            //Database.SetInitializer(new DropCreateDatabaseAlways<ContactsCatalogContext>());
         }
 
         public virtual DbSet<Contact> Contacts { get; set; }
