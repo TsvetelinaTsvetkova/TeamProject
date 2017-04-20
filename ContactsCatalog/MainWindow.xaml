@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ContactsCatalog"       
         mc:Ignorable="d"
-        Title="Contacts Catalog" WindowState="Maximized" Icon="{DynamicResource ImageSource1}" WindowStartupLocation="CenterScreen" Background="#FF78D4FF">
+        Title="Contacts Catalog" WindowState="Maximized">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="23"/>

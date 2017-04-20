@@ -149,6 +149,7 @@ namespace ContactsCatalog
         }  
         private void bt_delete_Click_1(object sender, RoutedEventArgs e)
         {
+
             this.store.SaveChanges();
             MessageBox.Show("Contact is deleted!", "Remove contact");
             LoadContacts();

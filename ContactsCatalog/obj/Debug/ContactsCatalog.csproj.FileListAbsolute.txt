@@ -91,3 +91,6 @@ C:\Users\bachito po malko ot3\Desktop\New folder\TeamProject\ContactsCatalog\obj
 C:\Users\bachito po malko ot3\Desktop\New folder\TeamProject\ContactsCatalog\obj\Debug\ContactsCatalog.g.resources
 C:\Users\bachito po malko ot3\Desktop\New folder\TeamProject\ContactsCatalog\obj\Debug\ContactsCatalog.Properties.Resources.resources
 C:\Users\bachito po malko ot3\Desktop\New folder\TeamProject\ContactsCatalog\obj\Debug\ContactsCatalog.csproj.GenerateResource.Cache
+C:\Users\Deni\Desktop\TeamProject\ContactsCatalog\obj\Debug\App.baml
+C:\Users\Deni\Desktop\TeamProject\ContactsCatalog\obj\Debug\WelcomeWindows.g.cs
+C:\Users\Deni\Desktop\TeamProject\ContactsCatalog\obj\Debug\WelcomeWindows.baml
