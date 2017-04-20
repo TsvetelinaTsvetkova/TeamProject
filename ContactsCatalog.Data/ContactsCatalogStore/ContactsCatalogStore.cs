@@ -33,6 +33,17 @@ namespace ContactsCatalog.Data.ContactsCatalogStore
             return this.context.Contacts.Where(x=>x.Name.ToLower().Contains(searchPattern.ToLower())).ToList();
         }
 
+        public void RemoveContact(Contact contact)
+        {
+            if (contact == null) return;
+
+            if (contact.Id == 0) return;
+
+            this.context.Contacts.Remove(contact);
+
+            this.context.SaveChanges();
+        }
+
         public void SaveChanges()
         {
             this.context.SaveChanges();

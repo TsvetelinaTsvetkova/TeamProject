@@ -36,8 +36,7 @@ namespace ContactsCatalog
             LoadContacts();         
         }
 
-        private void SaveChangesClick_Click(object sender,
-           RoutedEventArgs e)
+        private void SaveChangesClick_Click(object sender, RoutedEventArgs e)
         {
             if (NameBox.Text.Length == 0 || NameBox.Text == "New Contact")
             {
@@ -49,6 +48,7 @@ namespace ContactsCatalog
                 MessageBox.Show("Contact is saved!", " New contact");
                 lbl_name.Visibility = Visibility.Hidden;
                 NameBox.Visibility = Visibility.Hidden;
+                image.Visibility = Visibility.Hidden;
                 lbl_address.Visibility = Visibility.Hidden;
                 AddressBox.Visibility = Visibility.Hidden;
                 lbl_info.Visibility = Visibility.Hidden;
@@ -65,8 +65,7 @@ namespace ContactsCatalog
             DataContext = new ObservableCollection<Contact>(store.GetAllContacts());
         }
 
-        private void AddNewContact_Click(object sender,
-           RoutedEventArgs e)
+        private void AddNewContact_Click(object sender, RoutedEventArgs e)
         {
             ((ObservableCollection<Contact>)DataContext).Add(this.store.AddNewContact());
             lbl_welcome.Visibility = Visibility.Hidden;
@@ -154,20 +153,29 @@ namespace ContactsCatalog
         }  
         private void bt_delete_Click_1(object sender, RoutedEventArgs e)
         {
+            Contact selectedContact = this.ContactsList.SelectedItem as Contact;
 
-            this.store.SaveChanges();
-            MessageBox.Show("Contact is deleted!", "Remove contact");
-            LoadContacts();
-            lbl_name.Visibility = Visibility.Hidden;
-            NameBox.Visibility = Visibility.Hidden;
-            lbl_address.Visibility = Visibility.Hidden;
-            AddressBox.Visibility = Visibility.Hidden;
-            lbl_info.Visibility = Visibility.Hidden;
-            ContactInformationBox.Visibility = Visibility.Hidden;
-            button.Visibility = Visibility.Hidden;
-            lbl_pic.Visibility = Visibility.Hidden;
-            ProfilePicturePathBox.Visibility = Visibility.Hidden;
-            bt_save.Visibility = Visibility.Hidden;
+            if (selectedContact == null)
+            {
+                MessageBox.Show("Please, select a contact.", "Remove contact");
+            }
+            else
+            {
+                ((ObservableCollection<Contact>)DataContext).Remove(selectedContact);
+                this.store.RemoveContact(selectedContact);
+                MessageBox.Show("Contact is deleted!", "Remove contact");
+                LoadContacts();
+                lbl_name.Visibility = Visibility.Hidden;
+                NameBox.Visibility = Visibility.Hidden;
+                lbl_address.Visibility = Visibility.Hidden;
+                AddressBox.Visibility = Visibility.Hidden;
+                lbl_info.Visibility = Visibility.Hidden;
+                ContactInformationBox.Visibility = Visibility.Hidden;
+                button.Visibility = Visibility.Hidden;
+                lbl_pic.Visibility = Visibility.Hidden;
+                ProfilePicturePathBox.Visibility = Visibility.Hidden;
+                bt_save.Visibility = Visibility.Hidden;
+            }
         }
 
         private void bt_view_Click(object sender, RoutedEventArgs e)
@@ -178,6 +186,7 @@ namespace ContactsCatalog
                 bt_save.Visibility = Visibility.Hidden;
                 lbl_welcome.Visibility = Visibility.Hidden;
                 lbl_name.Visibility = Visibility.Visible;
+                image.Visibility = Visibility.Visible;
                 NameBox.Visibility = Visibility.Visible;
                 lbl_address.Visibility = Visibility.Visible;
                 AddressBox.Visibility = Visibility.Visible;
@@ -194,6 +203,7 @@ namespace ContactsCatalog
             {
                 lbl_name.Visibility = Visibility.Hidden;
                 NameBox.Visibility = Visibility.Hidden;
+                image.Visibility = Visibility.Hidden;
                 lbl_address.Visibility = Visibility.Hidden;
                 AddressBox.Visibility = Visibility.Hidden;
                 lbl_info.Visibility = Visibility.Hidden;
@@ -203,8 +213,6 @@ namespace ContactsCatalog
                 ProfilePicturePathBox.Visibility = Visibility.Hidden;
                 bt_save.Visibility = Visibility.Hidden;
             }
-
-
         }
     }
 }

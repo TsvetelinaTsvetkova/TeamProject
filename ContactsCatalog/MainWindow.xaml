@@ -110,7 +110,8 @@
                 Height="23" Click="Browse_Click" FontFamily="Arial Black" Cursor="Hand" Background="Yellow" Visibility="Hidden"/>
             <Image x:Name="image" Height="180" Width="180" 
                    Margin="15,15,0,15" HorizontalAlignment="Left" 
-                   AllowDrop="True" 
+                   AllowDrop="True"
+                   Visibility="Hidden"
                    Source="{Binding ProfilePicturePath, Mode=TwoWay}"/>
 
             <Label x:Name="lbl_pic" Content="Profile Picture Path:" Target="{Binding ElementName=ProfilePicturePathBox}" Margin="0" Padding="0" FontFamily="Arial Black" Visibility="Hidden"/>
