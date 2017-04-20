@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace ContactsCatalog.Data.ContactsCatalogStore
 {
@@ -41,8 +42,8 @@ namespace ContactsCatalog.Data.ContactsCatalogStore
         {
             var newContact = new Contact
             {
-                Name = "New Contact"
-            };
+              Name =  "New Contact"
+            };            
             this.context.Contacts.Add(newContact);
             return (newContact);
         }
