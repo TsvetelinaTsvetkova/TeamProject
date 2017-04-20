@@ -71,6 +71,7 @@ namespace ContactsCatalog
             lbl_welcome.Visibility = Visibility.Hidden;
             lbl_name.Visibility = Visibility.Visible;
             NameBox.Visibility = Visibility.Visible;
+            image.Visibility = Visibility.Visible;
             lbl_address.Visibility = Visibility.Visible;
             AddressBox.Visibility = Visibility.Visible;
             lbl_info.Visibility = Visibility.Visible;
@@ -123,6 +124,7 @@ namespace ContactsCatalog
                 lbl_welcome.Visibility = Visibility.Hidden;
                 lbl_name.Visibility = Visibility.Visible;
                 NameBox.Visibility = Visibility.Visible;
+                image.Visibility = Visibility.Visible;
                 lbl_address.Visibility = Visibility.Visible;
                 AddressBox.Visibility = Visibility.Visible;
                 lbl_info.Visibility = Visibility.Visible;
@@ -143,6 +145,7 @@ namespace ContactsCatalog
                 NameBox.Visibility = Visibility.Hidden;
                 lbl_address.Visibility = Visibility.Hidden;
                 AddressBox.Visibility = Visibility.Hidden;
+                image.Visibility = Visibility.Hidden;
                 lbl_info.Visibility = Visibility.Hidden;
                 ContactInformationBox.Visibility = Visibility.Hidden;
                 button.Visibility = Visibility.Hidden;
@@ -168,6 +171,7 @@ namespace ContactsCatalog
                 lbl_name.Visibility = Visibility.Hidden;
                 NameBox.Visibility = Visibility.Hidden;
                 lbl_address.Visibility = Visibility.Hidden;
+                image.Visibility = Visibility.Hidden;
                 AddressBox.Visibility = Visibility.Hidden;
                 lbl_info.Visibility = Visibility.Hidden;
                 ContactInformationBox.Visibility = Visibility.Hidden;
