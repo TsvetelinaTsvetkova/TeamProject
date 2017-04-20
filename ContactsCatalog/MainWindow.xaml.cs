@@ -132,6 +132,11 @@ namespace ContactsCatalog
                 lbl_pic.Visibility = Visibility.Visible;
                 ProfilePicturePathBox.Visibility = Visibility.Visible;
                 bt_save.Visibility = Visibility.Visible;
+
+                NameBox.IsReadOnly = false;
+                AddressBox.IsReadOnly = false;
+                ContactInformationBox.IsReadOnly = false;
+                ProfilePicturePathBox.IsReadOnly = false;
             }
             else
             {
@@ -165,5 +170,41 @@ namespace ContactsCatalog
             bt_save.Visibility = Visibility.Hidden;
         }
 
+        private void bt_view_Click(object sender, RoutedEventArgs e)
+        {
+            if (ContactsList.SelectedItem != null)
+            {
+                button.Visibility = Visibility.Hidden;
+                bt_save.Visibility = Visibility.Hidden;
+                lbl_welcome.Visibility = Visibility.Hidden;
+                lbl_name.Visibility = Visibility.Visible;
+                NameBox.Visibility = Visibility.Visible;
+                lbl_address.Visibility = Visibility.Visible;
+                AddressBox.Visibility = Visibility.Visible;
+                lbl_info.Visibility = Visibility.Visible;
+                ContactInformationBox.Visibility = Visibility.Visible;
+                lbl_pic.Visibility = Visibility.Visible;
+                ProfilePicturePathBox.Visibility = Visibility.Visible;
+                NameBox.IsReadOnly = true;
+                AddressBox.IsReadOnly = true;
+                ContactInformationBox.IsReadOnly = true;
+                ProfilePicturePathBox.IsReadOnly = true;
+            }
+            else
+            {
+                lbl_name.Visibility = Visibility.Hidden;
+                NameBox.Visibility = Visibility.Hidden;
+                lbl_address.Visibility = Visibility.Hidden;
+                AddressBox.Visibility = Visibility.Hidden;
+                lbl_info.Visibility = Visibility.Hidden;
+                ContactInformationBox.Visibility = Visibility.Hidden;
+                button.Visibility = Visibility.Hidden;
+                lbl_pic.Visibility = Visibility.Hidden;
+                ProfilePicturePathBox.Visibility = Visibility.Hidden;
+                bt_save.Visibility = Visibility.Hidden;
+            }
+
+
+        }
     }
 }
